@@ -6,6 +6,7 @@ body{
 	font-size: 16px;
 	margin: 0;
 	padding:  0;
+	background: #3d3d3d;
 }
 
 #cabecera{
@@ -15,11 +16,23 @@ body{
 	font-weight: bold;
 	margin: 0;
 	padding: 0.5em;
+	display: flex;
+	align-items: center;
+}
+
+#cabecera h3{
+	font-size: 30px;
+	margin-right: 90px;
+}
+
+#logo{
+	width: 50px;
+	height: 50px;
 }
 
 #cabecera #tagline{
 	font-weight: normal;
-	font-size: 0.8em;
+	font-size: 1.2em;
 	padding: 1em 0 0 0;
 }
 
@@ -30,6 +43,7 @@ body{
 }
 #post{
 	padding: 1em;
+	background: white;
 }
 
 #container h1{
